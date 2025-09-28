@@ -15,4 +15,6 @@ public class TestSquare {
     public void testArea(){assertEquals(square.getArea(), 4);}
     @Test
     public void testPerimeter(){assertEquals(square.getPerimeter(), 8);}
+    @Test
+    public void testPolygon(){assertEquals(square.numberOfSides(), 4);}
 }

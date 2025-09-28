@@ -15,4 +15,7 @@ public class TestIsoscelesRightTriangle {
     public void testArea(){assertEquals(isoscelesRightTriangle.getArea(), 0.5);}
     @Test
     public void testPerimeter(){assertEquals(isoscelesRightTriangle.getPerimeter(), 2 + (Math.sqrt(2)));}
+
+    @Test
+    public void testPolygon(){assertEquals(isoscelesRightTriangle.numberOfSides(), 3);}
 }
